@@ -1,0 +1,796 @@
+[21:43:41] [Spigot Watchdog Thread/ERROR]: The server has stopped responding!
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Please report this to http://www.spigotmc.org/
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Spigot version: git-Spigot-db6de12-18fbb24 (MC: 1.8.8)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Spigot!):
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 16 | Suspended: false | Native: false | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$5.isSatisfiedBy(Pattern.java:5253)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$5.isSatisfiedBy(Pattern.java:5253)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$5.isSatisfiedBy(Pattern.java:5253)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$CharProperty.match(Pattern.java:3778)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$Curly.match0(Pattern.java:4262)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$Curly.match(Pattern.java:4236)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$GroupHead.match(Pattern.java:4660)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$Branch.match(Pattern.java:4604)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$GroupHead.match(Pattern.java:4660)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$Branch.match(Pattern.java:4606)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Pattern$Start.match(Pattern.java:3463)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Matcher.search(Matcher.java:1248)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.regex.Matcher.find(Matcher.java:637)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.CraftChatMessage$StringMessage.<init>(CraftChatMessage.java:52)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.CraftChatMessage$StringMessage.<init>(CraftChatMessage.java:42)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.CraftChatMessage.fromString(CraftChatMessage.java:136)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.inventory.CraftMetaBook.addPage(CraftMetaBook.java:234)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.inventory.CraftMetaBook.<init>(CraftMetaBook.java:93)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.inventory.CraftMetaBook.<init>(CraftMetaBook.java:57)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.inventory.CraftItemStack.getItemMeta(CraftItemStack.java:331)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketDataSerializer.i(PacketDataSerializer.java:200)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1974)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInCustomPayload.a(SourceFile:55)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInCustomPayload.a(SourceFile:8)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Entire Thread Dump:
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #28
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12119 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #27
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12118 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #26
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12105 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #25
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12096 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #24
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12092 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #23
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12085 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #22
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12084 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #21
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12083 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #20
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12078 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #19
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12076 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #18
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12074 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #17
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12073 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #16
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12069 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #15
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12066 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #14
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12061 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #13
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12058 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #12
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12053 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #11
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12049 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #10
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12047 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #9
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12046 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #8
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12044 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #7
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12041 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #6
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12035 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #5
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12031 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #4
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 12002 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #3
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 11998 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #2
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 11817 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #1
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 11784 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.util.Waitable.get(Waitable.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.chat(PlayerConnection.java:1118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1022)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.PacketPlayInChat$1.run(PacketPlayInChat.java:39)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: process reaper
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 11719 | Suspended: false | Native: false | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.UNIXProcess.waitForProcessExit(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.UNIXProcess$$Lambda$7/1029991479.run(Unknown Source)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: CombatTagPlus ForceField Thread
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 9924 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: TrollCommandsPlusPlus-scheduled-73
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 6361 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1129)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:809)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-12-thread-1
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 2769 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: AACTiming-Executor
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 2768 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-13-thread-1
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 2762 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Chunk I/O Executor Thread-1
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 2761 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: pool-22-thread-1
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 2760 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: ProtocolLib-StructureCompiler 0
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 2759 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #3
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 29 | Suspended: false | Native: true | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:194)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:219)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #2
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 28 | Suspended: false | Native: true | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:194)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:219)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #1
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 27 | Suspended: false | Native: true | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:194)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:219)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: File IO Thread
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 225 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.sleep(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.FileIOThread.c(FileIOThread.java:52)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.minecraft.server.v1_8_R3.FileIOThread.run(FileIOThread.java:28)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Protocol Worker #1 - TrollCommandsPlusPlus - [recv: ENTITY_ACTION[class=PacketPlayInEntityAction, id=25], send: ]
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 159 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:579)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Okio Watchdog
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 151 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Object.java:502)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.buycraft.plugin.internal.okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:338)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.buycraft.plugin.internal.okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:313)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: factions-top-persistence-task
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 38 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.sleep(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.novucs.ftop.task.PersistenceTask.run(PersistenceTask.java:82)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: factions-top-chunk-task
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 37 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              net.novucs.ftop.task.ChunkWorthTask.run(ChunkWorthTask.java:37)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: MVStore background writer nio:/home/derock/FacServer/plugins/FactionsTop/database.mv.db
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 140 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Object.wait(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:2689)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: factions-top-sql-pool-0
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 137 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-92
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 132 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.massivecraft.massivecore.store.PusherCollFlatfile.run(PusherCollFlatfile.java:56)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-93
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 133 | Suspended: false | Native: true | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.poll(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-90
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 130 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.massivecraft.massivecore.store.PusherCollFlatfile.run(PusherCollFlatfile.java:56)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-91
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 131 | Suspended: false | Native: true | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.poll(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-88
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 128 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.massivecraft.massivecore.store.PusherCollFlatfile.run(PusherCollFlatfile.java:56)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-89
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 129 | Suspended: false | Native: true | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.poll(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-86
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 126 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.massivecraft.massivecore.store.PusherCollFlatfile.run(PusherCollFlatfile.java:56)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-87
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 127 | Suspended: false | Native: true | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.poll(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-84
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 124 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.massivecraft.massivecore.store.PusherCollFlatfile.run(PusherCollFlatfile.java:56)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-85
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 125 | Suspended: false | Native: true | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.poll(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-82
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 122 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              com.massivecraft.massivecore.store.PusherCollFlatfile.run(PusherCollFlatfile.java:56)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-83
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 123 | Suspended: false | Native: true | State: RUNNABLE
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.poll(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.lang.Thread.run(Thread.java:748)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: AAC-DebugWriter
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 121 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              me.konsolas.aac.aV.run(aV.java:6)
+[21:43:41] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[21:43:41] [Spigot Watchdog Thread/ERROR]: Current Thread: AAC-LogWriter
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      PID: 120 | Suspended: false | Native: false | State: WAITING
+[21:43:41] [Spigot Watchdog Thread/ERROR]:      Stack:
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              sun.misc.Unsafe.park(Native Method)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+[21:43:41] [Spigot Watchdog Thread/ERROR]:              java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+
+AND CONTINUES FOREVER!!!

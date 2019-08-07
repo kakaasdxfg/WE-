@@ -1,0 +1,64 @@
+if(command === "score") {
+      if(args.length != 3) {
+        message.channel.send("Incorrect usage! Correct usage: S!score [last4] [place] [kills]");
+        return;
+      }
+
+      let blastFour = args[0];
+      let bplacement = args[1];
+      let bkills = args[2];
+      let bgamemode = type.get(message.guild.toString());
+      let score = 0;
+      console.log(score.toString() + ", Last4" + blastFour.toString() + ",Placement " + bplacement.toString() + ", Kills" + bkills.toString());
+
+      if(gamemode = "solo"){
+        if(bplacement === "1") {
+          score = score + 12;
+          console.log("1 " + score.toString());
+        } else if(bplacement <= "2") {
+          score = score + 8;
+          console.log("2");
+        } else if(bplacement <= "3") {
+          score = score + 6;
+          console.log("3");
+        } else if(bplacement <= "5") {
+          score = score + "5";
+          console.log("4");
+        }
+        score = score + bkills*0.5;
+      }
+
+      if(gamemode = "duo"){
+        if(bplacement === "1") {
+          score = score + 10;
+        } else if(bplacement === "2") {
+          score = score + 2;
+        } else if(bplacement === "3") {
+          score = score + 4;
+        } else if(bplacement <= "5") {
+          score = score + 2;
+        }
+        let anothertemp = parseInt(bkills)*0.5;
+        let atemp = score;
+        score = atemp + anothertemp;
+        console.log(score.toString() + " PI " + parseInt(bkills)*0.5);
+      }
+
+      try{
+        console.log(score.toString() + ", " + blastFour.toString() + ", " + bplacement.toString() + ", " + bkills.toString());
+        let channel = scoreMap.get(message.guild.toString());
+        client.channels.get(channel).send("Good Job, " + message.author + ", You got a total of " + score.toString() + " points!");
+      } catch(error) {
+        message.channel.send("Oops we encountered an error. Try running S!setup again! Error Code: " + error.toString());
+      }
+
+    }
+
+
+
+
+CONSOLE:
+0, Last4123,Placement 1, Kills10
+1 12
+32 PI 5
+32, 123, 1, 10
